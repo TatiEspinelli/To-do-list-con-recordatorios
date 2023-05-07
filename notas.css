@@ -1,0 +1,41 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li span {
+    margin-right: 10px;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+  }
+  
+  li.expired {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form.editar span {
+    display: none;
+  }
+  
+  form.editar input {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  form.editar button {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
